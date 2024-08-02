@@ -24,7 +24,7 @@ function Header({dash}) {
           Project Fair
         </Navbar.Brand>
       </Link>
-     {dash && <button type='button' className='btn btn-warning' onClick={handleLogout}><FontAwesomeIcon icon={faPowerOff} className='me-2'/>Logout</button>}
+     { dash && <button type='button' className='btn btn-warning' onClick={handleLogout}><FontAwesomeIcon icon={faPowerOff} className='me-2'/>Logout</button> }
     </Container>
   </Navbar>
   )

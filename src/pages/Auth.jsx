@@ -10,7 +10,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 function Auth({register}) {
+
   const navigate = useNavigate()
+  
   const [userDetails, setUserDetails] = useState({
     username : "",
     email : "",
